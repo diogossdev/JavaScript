@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+    color: rgb(13, 13, 62);
+    padding: 10px;
+    margin: 2px;
+    line-height: 5px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.div_principal{
+    margin-top: 30px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: azure;
+    border-radius: 15px;
+}
+
+#botao_dark{
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: rgb(0, 0, 3);
+    background-color: rgb(9, 234, 51);
+    border: 0;
+    cursor: pointer;
+}
+
+#botao_dark:hover{
+    background-color: green;
+    transition: 0.8s;
+}
+
+.modo_escuro{
+    background-color: #222;
+    color: #5f0b0b;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="ex005.css">
+</head>
+<body>
+    <h1>Iniciando estudos com DOM!</h1>
+    <p class="msg">Aqui vai o resultado...</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JS!</p>
+    <div>
+        <h2>Clique em mim!</h2>
+    </div>
+    <script>
+        const p = document.querySelector('p.msg')
+        document.write(p.innerHTML)
+        const c = document.body
+        c.style.background = "aliceblue"
+    </script>
+</body>
+</html>
