@@ -1,0 +1,13 @@
+{
+  "name": "ex008",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ex008.js",
+  "scripts": {
+    "test": "--test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
