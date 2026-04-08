@@ -1,0 +1,23 @@
+/* Tirando margem e outros padrões do navegador */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    padding: 15px;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#gameboard{
+    background-color: gray;
+    
+}
