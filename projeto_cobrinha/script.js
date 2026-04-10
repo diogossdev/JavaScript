@@ -14,6 +14,7 @@ let velx = tamanhoBloco
 let vely = 0
 
 let maca = {x:100, y:100}
+let macas_comidas = 0
 
 //Funções
 
@@ -23,6 +24,12 @@ function desenharCobra(){
         ctx.fillStyle = "green";
         ctx.fillRect(pedaco.x, pedaco.y, tamanhoBloco, tamanhoBloco);
     }
+}
+
+//Função para inserir texto de pontuação no parágrafo
+function inserirTexto(texto) {
+  const paragrafo = document.getElementById('pontuacao');
+  paragrafo.textContent = texto;
 }
 
 //Função para criar a comida no jogo
@@ -44,6 +51,8 @@ function moverCobra(){
         cobra.unshift(novaCabeca)
         maca.x = gerarPosicaoAleatoria()
         maca.y = gerarPosicaoAleatoria()
+        macas_comidas += 1
+        inserirTexto(`Quantidade de maçãs comidas: ${macas_comidas}`)
     } else{
         cobra.unshift(novaCabeca)
         cobra.pop()

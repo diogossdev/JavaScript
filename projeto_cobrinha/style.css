@@ -21,3 +21,8 @@ body{
     background-color: gray;
     
 }
+
+#pontuacao{
+    font-size: 18px;
+    color: darkgreen;
+}
