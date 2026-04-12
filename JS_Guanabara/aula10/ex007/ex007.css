@@ -1,0 +1,18 @@
+body{
+    background-color: antiquewhite;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+input{
+    margin-top: 15px;
+}
+
+div{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: azure;
+    width: 200px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
